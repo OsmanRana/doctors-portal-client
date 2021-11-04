@@ -1,18 +1,21 @@
 
 import React from 'react';
 import Navigation from '../../Shared/Navigation/Navigation';
-import Appointment from '../Appointment/Appointment/Appointment';
-import DentalCare from '../DentalCare/DentalCare';
+import AppointmentBanner from './AppointmentBanner/AppointmentBanner';
+
+import DentalCare from './DentalCare/DentalCare';
 import Services from './Services/Services';
+import TopBanner from './TopBanner/TopBanner';
 
 
 const Home = () => {
     return (
         <div>
             <Navigation></Navigation> 
+            <TopBanner></TopBanner>
             <Services></Services>  
             <DentalCare></DentalCare> 
-            <Appointment></Appointment>
+            <AppointmentBanner></AppointmentBanner>
         </div>
     );
 };
