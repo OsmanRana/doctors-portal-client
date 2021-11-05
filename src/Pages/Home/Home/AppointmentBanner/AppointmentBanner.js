@@ -24,11 +24,12 @@ const AppointmentBanner = () => {
                     <Grid item xs={12} md={5}>
                         <img style={{ width: '90%', marginTop: -110, marginBottom: -4 }} src={doctor} alt="" />
                     </Grid>
-                    <Grid item xs={12} md={7} sx={{
+                    <Grid item xs={12} md={7}  sx={{
                         display: 'flex',
                         justifyContent: 'flex-start',
                         alignItems: 'center',
-                        textAlign: 'left'
+                        textAlign: 'left',
+                        
                     }}>
 
                         <Box>

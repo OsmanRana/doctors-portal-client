@@ -7,9 +7,10 @@ import Calender from '../Calender/Calender';
 const topBanner = {
     background: `url(${bg})`,
     width: '100%',
-    height: '1000px',
+    height: '1200px',
     backgroundRepeat: 'no-repeat',
-    marginTop: '-300px',
+    // marginTop: '-300px',
+    border: '1px solid red'
 
 }
 
@@ -26,7 +27,7 @@ const BookAppointment = ({date, setDate}) => {
                         display: 'flex',
                         justifyContent: 'start',
                         alignItems: 'center',
-                        marginTop: '200px'
+                        
                     }}>
                         <Grid item xs={12} md={6}
                             sx={{
